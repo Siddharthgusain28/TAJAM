@@ -6,7 +6,6 @@ $(function(){
     })
     if(screen.width<770){
         $(".collapse-nav a").click(function(e){
-            e.preventDefault();
             $(".collapse-nav").slideUp()
         })
     }
