@@ -25,7 +25,7 @@ nav li:hover a{ color: #00e0d0; border-bottom: 1px solid #ff0;}
 
 
 .part-1 h1{ font:bold 2rem  var(--ff); color: #fff; margin-top: 10rem;}
-.seprator{ width: 50px; ; height:1px ; background:#00e0d0 ; margin:5rem auto ;}
+.seprator{ width: 3rem; ; height:3px ; background:#00e0d0 ; margin:5rem auto ;}
 .about{ font: 15px/24px var(--rob); color: #01746c;}
 .page button{ background: none; border:1px solid #fff; font: 16px var(--ff); color: #fff; padding: 1rem;
 margin: 4rem 0 8rem;}
@@ -41,9 +41,9 @@ margin: 4rem 0 8rem;}
 .part-2{ background: #fff;  }
 .part-2 img{ padding: 3rem; display: block; margin: auto;}
 .part-2 h2{ font: bold 22px var(--ff); margin-top: 4rem; }
-.part-2 p{ font-size: 1rem; line-height: 22px; margin-top: 20px;}
-.part-2 button{ background: none; border:1px solid #00e0d0; font: 16px var(--ff); color:#01746c; padding: 1rem;
-margin: 2rem 0 4rem;}
+.part-2 p{ font-size: 1rem; line-height: 22px; margin-top: 1.3rem;}
+.part-2 button{ background: none; border:1px solid #00e0d0; font: 1rem var(--ff); color:#01746c; padding: 1rem;
+margin: 3rem 0}
 .part-2 button:hover{ border: 1px solid #ff0;}
 
 
@@ -190,6 +190,9 @@ margin: 1rem 0;}
     .collapse-nav{position: absolute; padding: 0; right:30px;top: 4rem; background:#00f; border-radius: 10px; box-shadow: 1px 1px 10px #fff,-1px -1px 10px #000; z-index: 1;}
     .collapse-nav .flex{flex-direction: column; }
     .collapse-nav ul{text-align: left;}
+    .part-1 h1{margin-top: 5rem;}
+    .seprator{margin: 2rem auto;}
+    .page button{margin: 3rem 0;}
 
 }
 
