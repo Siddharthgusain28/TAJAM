@@ -187,8 +187,9 @@ margin: 1rem 0;}
     .part-1 .row{display: flex;}   
     .collapse{display: inline-flex;}
     .collapse-nav{ display: none;}
-    .collapse-nav{position: absolute; padding: 0; right:30px;top: 4rem; background:#00f; border-radius: 10px; box-shadow: 1px 1px 10px #fff,-1px -1px 10px #000; z-index: 1;}
-    .collapse-nav .flex{flex-direction: column; }
+    .collapse-nav{position: absolute; width: 100%; right:0;top: 4rem; background:#00f; z-index: 1;}
+    .collapse-nav .flex{flex-direction: column; align-items: end; }
+    nav a{line-height: 3rem;}
     .collapse-nav ul{text-align: left;}
     .part-1 h1{margin-top: 5rem;}
     .seprator{margin: 2rem auto;}
