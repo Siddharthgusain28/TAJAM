@@ -108,7 +108,7 @@ margin: 2rem 0 ;}
 .part-7 blockquote.active{display: block;}
 .part-7 h3{ margin: 3rem 0 1rem ; text-transform: uppercase; font: bold 1rem var(--rob);}
 .part-7 .about{ margin-bottom: 2rem;}
-.part-7 .bx-pager-item a{ font-size: 0; background: url(/Tajam/img/client.webp) center top/cover; display: inline-block; width: 45px; height: 45px; display: flex; align-items: center; }
+.part-7 .bx-pager-item a{ font-size: 0; background: url(../img/client.webp) center top/cover; display: inline-block; width: 45px; height: 45px; display: flex; align-items: center; }
 .part-7 .bx-pager-item a.bx-pager-link.active{ width: 65px;  height:65px; }
 
 
